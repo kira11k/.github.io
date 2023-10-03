@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>按鈕樣式展示</title>
+    <!-- 引入 Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>按鈕樣式展示</h1>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h2>預設按鈕</h2>
+                <button class="btn btn-primary">主要按鈕</button>
+                <button class="btn btn-secondary">次要按鈕</button>
+            </div>
+            <div class="col-md-4">
+                <h2>不同大小的按鈕</h2>
+                <button class="btn btn-primary btn-lg">大按鈕</button>
+                <button class="btn btn-primary">預設按鈕</button>
+                <button class="btn btn-primary btn-sm">小按鈕</button>
+            </div>
+            <div class="col-md-4">
+                <h2>不同樣式的按鈕</h2>
+                <button class="btn btn-success">成功按鈕</button>
+                <button class="btn btn-danger">危險按鈕</button>
+                <button class="btn btn-warning">警告按鈕</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入 Bootstrap JS，如果需要的話 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁導覽列</title>
+    <!-- 引入 Bootstrap CSS 檔案 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- 導覽列開始 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">網站名稱</a>
+        <!-- 切換按鈕（小螢幕時顯示）-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 導覽列連結 -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">個人資料</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的作品</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的筆記</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 導覽列結束 -->
+
+    <!-- 引入 Bootstrap JS 檔案（可選） -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁導覽列</title>
+    <!-- 引入 Bootstrap CSS 檔案 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* 背景顏色設定 */
+        body {
+           background-color: #D3A4FF;
+       }
+       
+       /* 導覽列文字置中 */
+       .navbar {
+           text-align: center;
+       }
+       
+       /* 網站名稱粗體設定 */
+       .site-name {
+           font-weight: bold;
+       }
+       
+    </style>
+</head>
+
+<body>
+
+    <!-- 導覽列開始 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- 注意這裡的 navbar-dark 和 bg-dark -->
+        <a class="navbar-brand" href="#">網站名稱</a>
+        <!-- 切換按鈕（小螢幕時顯示）-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 導覽列連結 -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">個人資料</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的作品</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的筆記</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 導覽列結束 -->
+
+    <!-- 引入 Bootstrap JS 檔案（可選） -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="data:image/jpeg;base64,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"alt="圖片描述" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <p>企鵝</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://img.freepik.com/free-photo/red-white-cat-i-white-studio_155003-13189.jpg?w=2000" alt="圖片描述" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <p>貓貓</p>
+      </div>
+    </div>
+  </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wEyzdZVYA2E?si=6CUoDI3wxSqgV-nN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+ 
